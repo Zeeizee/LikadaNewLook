@@ -143,7 +143,7 @@ nav ul li a:hover {
 
 .innerBody {
   min-height: 60vh;
-  max-width: 1280px;
+  max-width: 100%;
   /* border: 1px solid red; */
   margin: auto;
   position: relative;
@@ -228,7 +228,17 @@ nav ul li a:hover {
 }
 
 /* //////////////////features section ///////////// */
-
+.features{
+  max-width: 1280px;
+  margin: auto;
+}
+.References{
+  background-color: #f3f3f3;
+}
+.refInner{
+  max-width: 1280px;
+  margin: auto;
+}
 .card {
   height: 200px;
   width: 250px;
