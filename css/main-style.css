@@ -19,11 +19,11 @@ nav {
   padding: 0px 50px 0px 50px;
   /* background-color: #635c53; */
   width: 100%;
-  background: rgb(73, 68, 62);
+  background: '#fff';
   background: linear-gradient(
     155deg,
-    rgba(73, 68, 62, 1) 36%,
-    rgba(222, 220, 219, 1) 75%
+    rgb(255, 255, 255) 36%,
+    rgb(199, 196, 195) 75%
   );
 }
 .brandName {
@@ -155,12 +155,12 @@ nav ul li a:hover {
 .carousel-inner,
 .carousel-item,
 .carousel-item {
-  -webkit-max-height: 60vh;
-  -moz-max-height: 60vh;
-  max-height: 60vh;
-  -webkit-min-height: 40vh;
-  -moz-min-height: 40vh;
-  min-height: 40vh;
+  -webkit-max-height: 50vh;
+  -moz-max-height: 50vh;
+  max-height: 50vh;
+  -webkit-min-height: 30vh;
+  -moz-min-height: 30vh;
+  min-height: 30vh;
 }
 .carousel-item {
   height: 900px;
@@ -180,7 +180,7 @@ nav ul li a:hover {
 }
 .cara1 {
   background-image: url(../images/trust.jpg);
-  background-size: 100% 100%;
+
 }
 .cara2 {
   background-image: url(../images/market.jpg);
